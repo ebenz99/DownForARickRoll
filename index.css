@@ -5,12 +5,12 @@ body {
 
 @font-face {
     font-family:'TestBold';
-    src: url("AvenirNextLTPro-Bold.otf");
+    src: url("fonts/AvenirNextLTPro-Bold.otf");
 }
 
 @font-face {
     font-family:'Test';
-    src: url("AvenirNextLTPro-Regular.otf");
+    src: url("fonts/AvenirNextLTPro-Regular.otf");
 }
 
 input {
