@@ -1,4 +1,4 @@
-html, body {
+/* html, body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -12,10 +12,46 @@ html, body {
 
     width: 100px;
     height: 100px;
-    background-color: red;
     display: inline-block;
 }
 
 iframe {
   display: block;
+} */
+
+@font-face {
+    font-family:'TestBold';
+    src: url("AvenirNextLTPro-Bold.otf");
 }
+
+@font-face {
+    font-family:'Test';
+    src: url("AvenirNextLTPro-Regular.otf");
+}
+
+input {
+  font-family: "Test";
+  color: black;
+}
+
+p {
+  font-family: "TestBold";
+  color: white;
+}
+
+.nav-left {
+  font-family: "TestBold";
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.nav {
+  /* font-family: "avenir next",avenir,"Nunito","helvetica neue","Helvetica","arial",sans-serif; */
+  padding: 20px 30px 20px 25px;
+  min-height: 17px;
+  display: flex;
+  height: max-content;
+  align-content: center;
+  justify-content: space-between;
+  background-color: #6aa9f4;
+}`
